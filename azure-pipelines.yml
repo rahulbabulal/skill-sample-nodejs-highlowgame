@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'mydockeragent'
 
 steps:
 - task: NodeTool@0
